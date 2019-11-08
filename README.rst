@@ -24,3 +24,19 @@ Differences with original Cookiecutter_ template:
 
 .. _actions: https://github.com/features/actions
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+
+
+Quickstart
+----------
+
+Install the latest Cookiecutter if you haven't installed it yet (this requires
+Cookiecutter 1.4.0 or higher)::
+
+    pip install -U cookiecutter
+
+Generate a Python package project::
+
+    cookiecutter https://github.com/sjoerdk/cookiecutter-pypackage.git
+
+Then:
+    Follow the instructions in the original Cookiecutter_ template
