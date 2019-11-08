@@ -21,6 +21,7 @@ Differences with original Cookiecutter_ template:
 
 * Uses github actions_ instead of Travis-CI for Continuous integration
 * Optimized for pycharm: .idea ignored by default
+* Supports only python 3.6 and higher in setup.py, dropped python 2
 
 .. _actions: https://github.com/features/actions
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
