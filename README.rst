@@ -23,6 +23,7 @@ Differences with original Cookiecutter_ template:
 * Optimized for pycharm: .idea ignored by default
 * Supports only python 3.6 and higher in setup.py, dropped python 2
 * Includes black formatting lib by default
+* Includes tests/.__init__ BASE_PATH and RESOURCE_PATH so you can use `from tests import RESOURCES_PATH`
 
 .. _actions: https://github.com/features/actions
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
