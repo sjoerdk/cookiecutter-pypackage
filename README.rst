@@ -19,7 +19,7 @@ Features
 
 Differences with original Cookiecutter_ template:
 
-* Uses github actions_ instead of Travis-CI for Continuous integration
+* Uses github actions_ instead of Travis-CI for Continuous integration (has default github build workflow)
 * Optimized for pycharm: .idea ignored by default
 * Supports only python 3.6 and higher in setup.py, dropped python 2
 * Includes black formatting lib by default
