@@ -42,5 +42,14 @@ Generate a Python package project::
 
     cookiecutter https://github.com/sjoerdk/cookiecutter-pypackage.git
 
+
+If you are deploying to pypi::
+
+    * Push your project to pypi once (see https://packaging.python.org/tutorials/packaging-projects/)
+    * Generate an API key for your project on https://pypi.org/
+    * Save this API key in your github secrets under key `pypi_password`
+
+    This will push each tagged commit to pypi
+
 Then:
     Follow the instructions in the original Cookiecutter_ template
