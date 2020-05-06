@@ -25,6 +25,7 @@ Differences with original Cookiecutter_ template:
 * Includes black formatting lib by default
 * Includes tests/.__init__ BASE_PATH and RESOURCE_PATH so you can use ``from tests import RESOURCES_PATH``
 * Uses factory-boy_ by default if you use pytest. Because its just so useful.
+* Docs use sphinx-rtd-theme by default, project includes .readthedocs.yml config file
 
 .. _actions: https://github.com/features/actions
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
