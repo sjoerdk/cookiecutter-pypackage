@@ -3,12 +3,12 @@ bump2version==1.0.0
 {% if cookiecutter.command_line_interface|lower == 'click' -%}
 Click==7.0{% endif %}
 {% if cookiecutter.use_pytest == 'y' -%}
-coverage==5.1
-factory-boy==2.12
-flake8==3.7.9
-pip==20.1
 pytest==5.4.1
 pytest-runner==5.2
+factory-boy==2.12{% endif %}
+coverage==5.1
+flake8==3.7.9
+pip==20.1
 Sphinx==3.0.3
 tox==3.14.6
 twine==3.1.1
